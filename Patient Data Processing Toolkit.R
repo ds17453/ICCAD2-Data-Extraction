@@ -28,7 +28,7 @@ DBConn <- function(x){
   # Connect to SQL Server
   if(x == 1){
     writeLines(text = "Connecting to CICU database...")
-    conn <<- odbcConnect("SQL Server1", uid="CISReportingDB", pwd="CISReportingDB_123")
+    conn <<- odbcConnect("SQL Server1", uid="***", pwd="***")
     # If the connection succeeds, the resulting object will be of "RODBC" class
     # Use this to report on the connection
     if(class(conn)=="RODBC"){writeLines("Connected to CICU database")}else{
