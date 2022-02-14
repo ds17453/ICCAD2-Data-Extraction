@@ -1,6 +1,6 @@
 # ICCAD2-Data-Extraction
 
-R scripts used to locate, extract, clean, and inspect variables stored in a Philips ICIP system.
+R scripts used to locate, extract, clean, and inspect variables stored in a Philips IntelliVue Clinical Information Portfolio (ICIP) system.
 
 ### Branches
 
@@ -8,7 +8,9 @@ Main: the most recent scripts used to extract the cardiac and general ICU variab
 
 PhD Toolkit: the scripts created during my PhD which were used to extract the cardiac ICU variables.
 
-### Main Branch Scripts
+### Main Branch Files
+
+Philips ICIP Data Extraction Walkthrough: Description of patient data collection via the front-end of the Philips ICIP system and subsequent data storage in the back-end database. Further detail is given to the nature of the issues with data extraction and what steps have been taken to overcome them.
 
 Patient Data Processing Toolkit: Functions designed to find where and how data is stored in the back-end of the Philips ICIP system.
 
